@@ -14,6 +14,6 @@ def convert_grid_size(input_file, output_file):
     df_early.to_csv(output_file, index=False)
 
 
-input_file = 'input data/BLE_rssi_V3.csv'
-output_file = 'output data/BLE_rssi_V11.csv'
+input_file = 'input data/BLE_rssi_Before_Filter_Grid_1.5m_1.25m.csv'
+output_file = 'output data/BLE_rssi_Before_Filter_Grid_1.5m_2.5m.csv'
 convert_grid_size(input_file, output_file)
